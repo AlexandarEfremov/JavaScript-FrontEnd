@@ -14,7 +14,6 @@ function age_determination(age) {
     } else {
         console.log("out of bounds")
     }
-
 }
 
 age_determination(-1)
