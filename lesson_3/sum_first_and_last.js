@@ -1,4 +1,4 @@
-function solve(arr) {
+function solve(number, arr) {
       let myArr = arr;
       let firstDigit = myArr.shift();
       let lastDigit = myArr.pop();
