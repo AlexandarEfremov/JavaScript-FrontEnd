@@ -1,4 +1,6 @@
-str = 'sss'
-let regExp = /\d/g;
+let text = 'JavaScript is the best programming language';
+let word = 'javascript';
 
-console.log(regExp.test(str));
+let refText = text.toLowerCase().split(' ');
+let indexMatch = refText.indexOf(word);
+console.log(text.split(' ')[indexMatch]);
