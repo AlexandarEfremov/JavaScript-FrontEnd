@@ -19,7 +19,6 @@ function solve(password) {
     } else {
         return "Password is valid";
     }
-
 }
 
 console.log(solve('Pa$s$s'))
