@@ -1,6 +1,9 @@
-const myObj = { name: 'Peter', age: 21 };
+let firstName = "Alex";
+let lastName = "Efremov";
 
-myObj.height = 183;
+const myObj = {
+    firstName,
+    lastName
+};
 
-delete myObj.age;
 console.log(myObj);
