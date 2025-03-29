@@ -1,9 +1,3 @@
-let firstName = "Alex";
-let lastName = "Efremov";
+let arr = ["alex", "ewa"]
 
-const myObj = {
-    firstName,
-    lastName
-};
-
-console.log(myObj);
+console.log(arr.shift());
