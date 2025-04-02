@@ -14,9 +14,8 @@ function solve(myArr) {
     if (parked.size) {
         console.log([...parked].sort().join('\n'));
     } else {
-        console.log('Parking Lot is empty');
+        console.log('Parking Lot is Empty');
     }
-
 }
 
 solve(
