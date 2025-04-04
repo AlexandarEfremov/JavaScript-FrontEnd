@@ -1,6 +1,3 @@
-let text = 'JavaScript is the best programming language';
-let word = 'javascript';
+let myArr = [10, 20, 30, 40, 50];
 
-let refText = text.toLowerCase().split(' ');
-let indexMatch = refText.indexOf(word);
-console.log(text.split(' ')[indexMatch]);
+console.log(myArr.splice(2, 1));
