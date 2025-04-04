@@ -1,3 +1,3 @@
 function editElement() {
-    // TODO
+    alert('it works');
 }
